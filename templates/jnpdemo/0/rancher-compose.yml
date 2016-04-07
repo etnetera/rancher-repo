@@ -1,11 +1,9 @@
 .catalog:
   name: "jNP NG Demo"
-  version: "0.01"
   description: "Demo instance of jNP NG from Etnetera."
-  minimum_rancher_version: v0.42
+  version: "v0.1-rancher1"
   questions:
     - variable: "JNP_DOMAIN"
       label: "jNP domain"
-      description: "Set a default domain."
       type: "string"
       required: true
