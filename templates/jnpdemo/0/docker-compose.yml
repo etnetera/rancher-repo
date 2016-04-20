@@ -27,7 +27,14 @@ db:
     - JNP_PORT=${JNP_PORT}
 jnpsnap1:
   image: docker-registry.etnetera.cz/jahor/jnpng-data-snap
+  labels:
+    io.rancher.container.start_once: true
 jnpsnap2:
   image: docker-registry.etnetera.cz/jahor/jnpng-data-snap
+  labels:
+    io.rancher.container.start_once: true
 jnpapp:
   image: docker-registry.etnetera.cz/jahor/jnpng-app
+  labels:
+    io.rancher.container.start_once: true
+
