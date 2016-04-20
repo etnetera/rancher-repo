@@ -7,3 +7,7 @@
       label: "jNP domain"
       type: "string"
       required: true
+    - variable: "JNP_PORT"
+      label: "jNP port"
+      type: "string"
+      required: true

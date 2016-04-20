@@ -24,6 +24,7 @@ db:
     - MYSQL_PASSWORD=jnp_ng_demo
     - MYSQL_RANDOM_ROOT_PASSWORD=yes
     - JNP_DOMAIN=${JNP_DOMAIN}
+    - JNP_PORT=${JNP_PORT}
 jnpsnap1:
   image: docker-registry.etnetera.cz/jahor/jnpng-data-snap
 jnpsnap2:
